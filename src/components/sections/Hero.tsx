@@ -105,7 +105,7 @@ export const Hero = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="w-full md:w-1/3 mt-16 md:mt-0 flex justify-center hidden md:flex relative"
+          className="w-full md:w-1/3 mt-16 md:mt-0 flex justify-center relative"
         >
           <div 
             className="relative w-64 h-64 md:w-80 md:h-80 rounded-full p-1.5 bg-gradient-to-tr from-primary to-secondary shadow-[0_0_30px_rgba(147,51,234,0.3)] cursor-pointer group"
